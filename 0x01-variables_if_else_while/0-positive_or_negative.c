@@ -10,7 +10,6 @@ int main(void)
 {
 	int n;
 
-	printf("please enter n: \n");
 	scanf("%d\n", &n);
 	if (n > 0)
 		printf("%d is positive\n", n);

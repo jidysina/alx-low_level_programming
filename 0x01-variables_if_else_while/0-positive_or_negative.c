@@ -1,15 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point
- * return :always 0 (sucess)
+ * Return: always 0 (sucess)
  */
+
+/*main is the main entry point*/
 int main(void)
-	/** main is main entry point*/
 {
 	int n;
 
-	printf("please enter n: ");
-	scanf("%d", &n);
+	printf("please enter n: \n");
+	scanf("%d\n", &n);
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
